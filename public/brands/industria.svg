@@ -1,0 +1,7 @@
+<svg width="180" height="64" viewBox="0 0 180 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="4" y="6" width="172" height="52" rx="12" fill="#F5F2FF" stroke="#D8D0FF" stroke-width="2"/>
+  <path d="M30 44V26L44 32V26L58 32V44H30Z" stroke="#6A4DF3" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M38 24V18" stroke="#6A4DF3" stroke-width="3" stroke-linecap="round"/>
+  <path d="M46 24V18" stroke="#6A4DF3" stroke-width="3" stroke-linecap="round"/>
+  <text x="72" y="40" font-family="Montserrat, Arial, sans-serif" font-size="14" font-weight="600" fill="#1E1B2E">Indústria</text>
+</svg>

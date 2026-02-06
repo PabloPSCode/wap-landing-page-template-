@@ -1,0 +1,6 @@
+<svg width="180" height="48" viewBox="0 0 180 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="2" y="6" width="44" height="36" rx="10" fill="#6A4DF3"/>
+  <path d="M13 28L18.5 18L24 28L29.5 18L35 28" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="58" y="22" font-family="Montserrat, Arial, sans-serif" font-size="16" font-weight="700" fill="#1E1B2E">WAP</text>
+  <text x="58" y="38" font-family="Montserrat, Arial, sans-serif" font-size="12" font-weight="500" fill="#6A4DF3">Transportadora</text>
+</svg>
