@@ -25,8 +25,9 @@ import {
   ShieldCheckIcon,
   ShoppingBagIcon,
   StorefrontIcon,
-  TruckIcon
+  TruckIcon,
 } from "@phosphor-icons/react";
+import Image from "next/image";
 import { useState } from "react";
 
 const featureIconMap = {
@@ -176,51 +177,15 @@ export default function Home() {
                     content={landingPageContent.hero.panel.title}
                     className="text-xs font-semibold text-primary-600"
                   />
-                  <div className="flex gap-2">
-                    <span className="h-2 w-2 rounded-full bg-primary-300" />
-                    <span className="h-2 w-2 rounded-full bg-primary-200" />
-                    <span className="h-2 w-2 rounded-full bg-primary-100" />
-                  </div>
                 </div>
-                <div className="mt-5 grid grid-cols-[150px_1fr] gap-4">
-                  <div className="rounded-2xl bg-primary-50 p-4">
-                    <div className="h-2 w-16 rounded-full bg-primary-200" />
-                    <div className="mt-4 space-y-3">
-                      <div className="h-2 w-full rounded-full bg-primary-100" />
-                      <div className="h-2 w-3/4 rounded-full bg-primary-100" />
-                      <div className="h-2 w-5/6 rounded-full bg-primary-100" />
-                    </div>
-                    <div className="mt-6 flex items-center gap-2">
-                      <div className="h-8 w-8 rounded-full bg-primary-200" />
-                      <div className="flex-1">
-                        <div className="h-2 w-20 rounded-full bg-primary-200" />
-                        <div className="mt-2 h-2 w-14 rounded-full bg-primary-100" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="rounded-2xl bg-primary-100 p-4">
-                      <div className="h-10 w-10 rounded-xl bg-white" />
-                      <div className="mt-4 h-2 w-16 rounded-full bg-primary-200" />
-                      <div className="mt-2 h-2 w-24 rounded-full bg-primary-200/70" />
-                    </div>
-                    <div className="rounded-2xl bg-primary-50 p-4">
-                      <div className="h-10 w-10 rounded-xl bg-primary-200" />
-                      <div className="mt-4 h-2 w-12 rounded-full bg-primary-200" />
-                      <div className="mt-2 h-2 w-20 rounded-full bg-primary-200/70" />
-                    </div>
-                    <div className="rounded-2xl bg-primary-50 p-4">
-                      <div className="h-10 w-10 rounded-full bg-primary-200" />
-                      <div className="mt-4 h-2 w-20 rounded-full bg-primary-200" />
-                      <div className="mt-2 h-2 w-14 rounded-full bg-primary-200/70" />
-                    </div>
-                    <div className="rounded-2xl bg-primary-100 p-4">
-                      <div className="h-10 w-10 rounded-full bg-white" />
-                      <div className="mt-4 h-2 w-16 rounded-full bg-primary-200" />
-                      <div className="mt-2 h-2 w-24 rounded-full bg-primary-200/70" />
-                    </div>
-                  </div>
-                </div>
+                <Image
+                  src="https://plus.unsplash.com/premium_photo-1661907153090-93759d68acb1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="delivery-wap"
+                  width={400}
+                  height={300}
+                  className="mt-4 h-auto w-full rounded-lg object-cover"
+                />
+
                 <div className="mt-6 flex items-center justify-between rounded-2xl border border-primary-100 bg-primary-50 px-4 py-3">
                   <Phrase
                     content={landingPageContent.hero.panel.statusLabel}
